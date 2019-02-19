@@ -1,0 +1,14 @@
+{
+  "name": "reddlobby",
+  "version": "1.0.0",
+  "description": "Bot made for nesty <Redd's' Lobby>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikch0#0984",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
