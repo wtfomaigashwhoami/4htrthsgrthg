@@ -5,7 +5,7 @@ var client = new Discord.Client();
 
 client.on('ready', () => {
     console.log(client.user.username + ' is on');
-	client.user.setActivity('redd.atshop.io', {type: "PLAYING"});
+	client.user.setActivity('cloudmatic.atshop.io', {type: "PLAYING"});
 });
 
 client.on('message', message => {
