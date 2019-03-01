@@ -5,7 +5,7 @@ var client = new Discord.Client();
 
 client.on('ready', () => {
     console.log(client.user.username + ' is on');
-	client.user.setActivity('redd's playlist', {type: "LISTENING"});
+	client.user.setActivity("redd's playlist", {type: "LISTENING"});
 });
 
 client.on('message', message => {
